@@ -1,0 +1,85 @@
+* {
+    text-decoration: none;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border: solid rgb(0, 0, 0);
+    background-color: rgb(224, 224, 42);
+    margin: 1% 20%;
+   }
+
+   header img {
+       width: 10%;
+   }
+
+   #titulo {
+    font-family: 'Redressed', cursive;
+   }
+
+body {
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1586473219010-2ffc57b0d282?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tudo {
+    border: black solid;
+    border-width: contain;
+    border-radius: 5px;
+    margin: 10% 20%;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+#input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#lista {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul {
+    width: 90%;
+    
+}
+
+li {
+    display: flex;
+    margin-bottom: 2%;
+    border-bottom: dimgray solid 0.1em;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+button {
+    font-weight: bold !important;
+    font-family: 'Redressed', cursive !important;
+    font-size: 150% !important;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 30%;
+}
+
+label {
+    color: black !important;
+}
+
+a {
+    color: rgb(95, 177, 192);
+}
